@@ -1,0 +1,10 @@
+a = int(input("add 1st number here :"))
+b = int(input("add 2nd number here :"))
+
+print(a!=b)
+print(b!=a)
+
+if a != b :
+    print("that means the numbers are not the same")
+else:
+    print("they are equal")
