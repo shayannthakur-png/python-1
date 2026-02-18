@@ -20,3 +20,4 @@ else:
     surcharge = 75
 
 total = amount + surcharge
+print("energy bill =",  total)
