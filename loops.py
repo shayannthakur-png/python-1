@@ -1,6 +1,11 @@
-n = int(input("Enter the number whose sum you want to find: "))
-sum = 2
-for i in range(1, n + 1):
-    sum = sum + i
+base = int(input("Enter the base number: "))
+exponent = int(input("Enter the power (exponent): "))
 
-print("\nSum =", sum)
+result = 1
+i = 1
+
+while i <= exponent:
+    result = result * base
+    i = i + 1
+
+print("Answer =", result)
