@@ -1,0 +1,13 @@
+def smt():
+    print("hello")
+    print("how are you")
+    print("hello to you")
+smt()
+smt()
+smt()
+smt()
+smt()
+smt()
+smt()
+smt()
+smt()
